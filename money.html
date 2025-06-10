@@ -1,0 +1,308 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ar" >
+<head>
+    <link rel="icon" href="assests/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#16181D">
+    <meta name="description" content="الخادم الأول في الشرق الأوسط من حيث الجوده ولأول مره نقدم طريقة لعب جديده علي مستوى خوادم ام تي اي ادخل واستمتع معنا">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assests/style.css">
+    <link rel="stylesheet" href="assests/shop.css">
+    <link rel="stylesheet" href="assests/nav.css">
+    <title>LuaHub</title>
+</head>
+<body >
+    <div class="ulg">
+
+    <nav>
+    <div class="ulg-logo">
+        <img src="assests/logo.png" alt="future">
+        <span>LuaHub</span>
+    </div>
+    <ul class="urls">
+        
+            <li>
+                <a href="index.html">
+                    <span>
+                        Main                    </span>
+                </a>
+            </li>
+
+
+
+            <li>
+                <a href="رابط الديسكورد هنا" target="_blank">
+                    <span>
+                        Discord                   </span>
+                </a>
+            </li>
+
+
+
+            <li class="menu">
+                <a>
+                    <span>Store</span>
+                    <span><i class="bi bi-arrow-down-short"></i></span>
+                    <div class="desc">
+                        <a href="ids.html">قسم الايديهات</a>
+                        <a href="factions.html">الفاكشنات و العصابات</a>
+                        <a href="cars.html">قسم السيارات</a>
+                        <a href="money.html">قسم الاموال</a>
+                    </div>
+                </a>
+            </li>
+            
+        </nav>
+    </header>
+    <div class="sidebar">
+        <a href="all.html" onclick="filterProducts('all')">إظهار الجميع</a>
+        <a href="cars.html" onclick="filterProducts('cars')">المركبات</a>
+        <a href="ids.html" onclick="filterProducts('ids')">الايديهات</a>
+        <a href="money.html" onclick="filterProducts('money')">الاموال</a>
+        <a href="factions.html" onclick="filterProducts('factions')">الفاكشنات و العصابات</a>
+    </div>
+    <main>
+        <div class="product-grid">
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="bigcars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+
+
+            <div class="product-card" data-product="factions">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+
+            <div class="product-card" data-product="factions">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="bigcars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="cars">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+            <div class="product-card" data-product="packges">
+                <img src="Shop/car2.png" alt="ID">
+                <h2>اسم المنتج</h2>
+                <h5>وصف المنتج</h5>
+                <h5>وصف المنتج</h4>
+                <h5>سعر المنتج</p>
+                <button onclick="openPurchaseForm('اسم المنتج')">التوجه للشراء</button>
+            </div>
+        </div>
+        
+    </main>
+
+    
+    <div id="purchaseModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePurchaseForm()">&times;</span>
+            <h2>نموذج الشراء</h2>
+            <form id="purchaseForm">
+                <label for="discordId">إيدي الديسكورد :</label>
+                <input type="text" id="discordId" name="discordId" required>
+
+                <label for="accountId">إيدي الحساب :</label>
+                <input type="text" id="accountId" name="accountId" required>
+
+                <label for="product">المنتج :</label>
+                <input type="text" id="product" name="product" readonly>
+
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const webhookURL ="https://discord.com/api/webhooks/1355494184542535740/yxQKs5sBCx1H7SuhwWvxSu32B5vux4y5sgpVf-QOeJCFTUEM0w92OnEsVARwLb07D7il"; // استبدل هذا بالـ Webhook URL الخاص بك
+
+        function openPurchaseForm(productName) {
+            document.getElementById('product').value = productName;
+            document.getElementById('purchaseModal').style.display = "block";
+            updateSubmitButtonStatus(); 
+        }
+
+        function closePurchaseForm() {
+            document.getElementById('purchaseModal').style.display = "none";
+        }
+
+        function filterProducts(category) {
+            const allProducts = document.querySelectorAll('.product-card');
+            if (category === 'all') {
+                allProducts.forEach(product => product.style.display = 'block');
+            } else {
+                allProducts.forEach(product => {
+                    if (product.getAttribute('data-product') === category) {
+                        product.style.display = 'block';
+                    } else {
+                        product.style.display = 'none';
+                    }
+                });
+            }
+        }
+
+        function updateSubmitButtonStatus() {
+            const submitButton = document.getElementById('purchaseForm').querySelector('button[type="submit"]');
+            const lastSubmitTime = localStorage.getItem('lastSubmitTimePurchase');
+            const currentTime = new Date().getTime();
+            const cooldownTime = 1 * 60 * 60 * 1000; 
+
+            if (lastSubmitTime) {
+                const timePassed = currentTime - lastSubmitTime;
+
+                if (timePassed < cooldownTime) {
+                    const timeLeft = Math.ceil((cooldownTime - timePassed) / 1000);
+                    submitButton.disabled = true;
+                    submitButton.innerText = `يمكنك الإرسال بعد ${Math.floor(timeLeft / 320)} دقيقة و ${timeLeft % 60} ثانية`;
+                } else {
+                    submitButton.disabled = false;
+                    submitButton.innerText = 'إرسال';
+                }
+            } else {
+                submitButton.disabled = false;
+                submitButton.innerText = 'إرسال';
+            }
+        }
+
+        document.getElementById('purchaseForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const submitButton = e.target.querySelector('button[type="submit"]');
+            if (submitButton.disabled) return;
+
+            const discordId = document.getElementById('discordId').value;
+            const accountId = document.getElementById('accountId').value;
+            const product = document.getElementById('product').value;
+
+            const webhookData = {
+                content: `طلب شراء جديد\n\n**إيدي الديسكورد:** ${discordId}\n**إيدي الحساب:** ${accountId}\n**المنتج:** ${product}`
+            };
+
+            fetch(webhookURL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(webhookData)
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('تم إرسال طلب الشراء بنجاح!');
+                    submitButton.disabled = true;
+                    submitButton.innerText = 'تم الإرسال. يمكنك الإرسال مرة أخرى بعد ساعة.';
+                    localStorage.setItem('lastSubmitTimePurchase', new Date().getTime());
+                    closePurchaseForm();
+                } else {
+                    return response.text().then(text => { throw new Error(text); });
+                }
+            })
+            .catch(error => {
+                console.error('حدث خطأ:', error);
+                alert('حدث خطأ أثناء إرسال طلب الشراء.');
+            });
+        });
+    </script>
+
+    
+    <script src="discord.js"></script>
+</body>
+
+</html>

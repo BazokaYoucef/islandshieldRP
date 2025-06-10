@@ -1,0 +1,86 @@
+.ulg nav {
+    height: 80px;
+    padding: 5px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #13141767;
+    font-size: 16px;
+}
+
+.ulg nav .urls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.urls li {
+    background-color: #41404048;
+    padding: 5px 20px;
+    transition: background .3s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    border-radius: 2.5px;
+}
+
+.urls li:hover {
+    background: rgba(5, 98, 229, 0.785);
+}
+
+.ulg-logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.ulg-logo > img {
+    width: 90px;
+}
+
+.ulg nav ul li .desc {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 44px;
+    left: 0px;
+    width: 200px;
+    background-color: rgba(3, 16, 33, 0.843);
+    padding: 10px;
+    border-radius: .856rem;
+    transition: color .3s ease-in-out;
+}
+
+.desc a{
+    color: rgba(5, 98, 229, 0.785);
+    transition: color .3s ease-in-out;
+}
+
+.desc a:hover {
+    color: white;
+}
+
+.ulg nav ul .menu:hover .desc{
+    display: flex;
+    animation: drop .3s ease-in-out;
+    z-index: 10;
+}
+
+@keyframes drop {
+    0% {
+        left: -10px;
+        opacity: 0;
+    }
+
+    50% {
+        left: -5px;
+        opacity: 0.5;
+
+    }
+    
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
